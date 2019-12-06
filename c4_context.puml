@@ -122,6 +122,12 @@ endlegend
 !define SystemDb_Ext(e_alias, e_label) database "==e_label" <<external_system>> as e_alias
 !define SystemDb_Ext(e_alias, e_label, e_descr) database "==e_label\n\n e_descr" <<external_system>> as e_alias
 
+!define SystemMQ(e_alias, e_label) queue "==e_label" <<system>> as e_alias
+!define SystemMQ(e_alias, e_label, e_descr) queue "==e_label\n\n e_descr" <<system>> as e_alias
+
+!define SystemMQ_Ext(e_alias, e_label) queue "==e_label" <<external_system>> as e_alias
+!define SystemMQ_Ext(e_alias, e_label, e_descr) queue "==e_label\n\n e_descr" <<external_system>> as e_alia
+
 ' Boundaries
 ' ##################################
 
