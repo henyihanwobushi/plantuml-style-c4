@@ -27,6 +27,13 @@ skinparam database<<container>> {
     BorderColor CONTAINER_BORDER_COLOR
 }
 
+skinparam queue<<container>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor CONTAINER_BG_COLOR
+    BorderColor CONTAINER_BORDER_COLOR
+}
+
 ' Layout
 ' ##################################
 !definelong LAYOUT_WITH_LEGEND_CN

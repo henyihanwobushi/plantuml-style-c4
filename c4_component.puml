@@ -26,6 +26,13 @@ skinparam database<<component>> {
     BorderColor COMPONENT_BORDER_COLOR
 }
 
+skinparam queue<<component>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor COMPONENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BORDER_COLOR
+}
+
 ' Layout
 ' ##################################
 

@@ -199,6 +199,11 @@ skinparam database {
     shadowing false
 }
 
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
 skinparam Queue {
     BackgroundColor MD_BLUE_50
     BorderColor MD_GRAY_800
